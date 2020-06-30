@@ -1,0 +1,440 @@
+(|SYSTEM|::|VERSION| '(20100807.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 1 (DEFVAR *TREE*)-1|
+   #16Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|*TREE*|)
+    |COMMON-LISP-USER|::|*TREE*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|2 2 (DEFVAR *INPUT*)-2|
+   #16Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|*INPUT*|)
+    |COMMON-LISP-USER|::|*INPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|3 3 (DEFVAR *TOKEN*)-3|
+   #16Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|*TOKEN*|)
+    |COMMON-LISP-USER|::|*TOKEN*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|4 4 (DEFVAR *LEXEME*)-4|
+   #16Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|*LEXEME*|)
+    |COMMON-LISP-USER|::|*LEXEME*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|5 5 (DEFVAR *CURRENT*)-5|
+   #16Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|*CURRENT*|)
+    |COMMON-LISP-USER|::|*CURRENT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|7 9 (DEFUN PARSER (TOKENS) ...)-6|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|PARSER| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|PARSER|
+       #17Y(00 00 00 00 01 00 00 00 26 02 9E 0F 00 2E 01 19 02)
+       (|COMMON-LISP-USER|::|*INPUT*| |COMMON-LISP-USER|::|PARSEINPUT|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP-USER|::|TOKENS|) |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|11 19 (DEFUN PARSEINPUT NIL ...)-7|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|PARSEINPUT| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|PARSEINPUT|
+       #47Y(00 00 00 00 00 00 00 00 26 01 0E 00 1F 1F 1B 04 0E 00 1F 19 00 0F
+            01 2E 02 0F 01 DD 0E 01 5D 0F 01 DE 0E 01 5D 0F 01 2E 05 29 00 01
+            63 19 01)
+       (|COMMON-LISP-USER|::|*INPUT*| |COMMON-LISP-USER|::|*TREE*|
+        |COMMON-LISP-USER|::|CREATETREE| "input" "start"
+        |COMMON-LISP-USER|::|PRINTTREE|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|21 59 (DEFUN CREATETREE NIL ...)-8|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|CREATETREE| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|CREATETREE|
+       #151Y(00 00 00 00 00 00 00 00 26 01 63 2E 00 DB 88 02 20 E0 88 02 25 E3
+             88 02 2B E5 E6 8A 02 37 F1 F2 8B 02 80 51 F3 84 00 F4 84 00 03 1B
+             14 9E 5D 19 02 DD 6B 04 61 02 F8 CA 1B 72 6B 07 6B 04 61 02 F8 CD
+             1B 68 6B 07 6B 04 61 02 F8 CF 1B 5E D7 1B 37 F0 33 00 1E 2E 00 E7
+             E8 8B 02 75 63 2F 0F F8 2E 00 EA EB 8B 02 67 92 00 03 ED 84 00 EE
+             84 00 03 15 1B FF B7 F6 F7 8B 02 12 2E 1E F8 2E 00 65 1F 65 20 8A
+             02 0E 03 21 14 9E 1B 04 65 22 0E 23 14 33 01 1E 15 19 01)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "identifier"
+        |COMMON-LISP-USER|::|COMPARE| "id" |COMMON-LISP-USER|::|*LEXEME*|
+        "EXPI" "integer" |COMMON-LISP-USER|::|*TOKEN*| "EXPI" "binaryValue"
+        "EXPB" "operator" "'" "operator" "("
+        |COMMON-LISP-USER|::|TAKELISTVALUES| "operator" ")"
+        "Missing operator \")\" after ~a " "'()" "LISTVALUE" "EXPLIST"
+        "Missing operator \"(\" after operator ' " "keyword" "null" "null"
+        "LISTVALUE" "EXPLIST" "operator" "(" |COMMON-LISP-USER|::|DETERMINEEXP|
+        "operator" ")" "Missing operator \")\" after ~a "
+        "Undefined argument ~a " |COMMON-LISP-USER|::|*CURRENT*|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|61 71 (DEFUN DETERMINEEXP NIL ...)-9|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|DETERMINEEXP| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|DETERMINEEXP|
+       #43Y(00 00 00 00 00 00 00 00 26 01 63 2E 00 F8 1D 09 93 00 0C 93 00 0F
+            15 19 01 2E 01 F8 92 00 74 2E 02 F8 92 00 71 DD 6B 04 33 01 1E)
+       (|COMMON-LISP-USER|::|TAKEEXPI| |COMMON-LISP-USER|::|TAKEEXPB|
+        |COMMON-LISP-USER|::|TAKEEXPLIST| "Undefined argument ~a "
+        |COMMON-LISP-USER|::|*INPUT*|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|73 196 (DEFUN TAKEEXPI NIL ...)-10|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKEEXPI| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKEEXPI|
+       #423Y(00 00 00 00 00 00 00 00 26 01 01 04 2E 00 DB DC DD DE DF 2D 05 06
+             1D 80 B5 0E 07 F8 2E 08 14 84 02 2E 08 14 84 02 1B 81 63 2E 0A 2E
+             08 14 84 02 63 2F 0B FB 1C 03 E6 84 03 E7 84 03 14 72 63 AF 82 02
+             23 02 14 32 64 D3 1B 81 45 0E 07 F8 2E 08 14 84 02 EC 88 06 4A D8
+             1B 80 D1 2E 0A 9F 1B 81 2B 0E 07 F8 2E 16 14 84 02 2E 17 14 84 02
+             2E 00 F2 F3 8A 06 66 2E 0A 2E 17 14 84 02 9F 1B 81 0C 65 20 84 03
+             03 21 1B 80 9B 03 22 1B 80 A8 03 23 1B 38 0E 07 F8 2E 00 F6 F7 8B
+             06 72 2E 16 14 84 02 2E 00 65 1E 65 1F 8B 06 5F 63 2F 0B FB 1D 50
+             03 21 1B 80 6F 03 29 1B 80 72 65 2C 84 03 03 2D 1B 80 61 03 2E 1B
+             80 6E 03 2F 14 33 00 1E E3 88 06 FF 56 E9 EA EB 2D 03 06 1C FF 6F
+             EE EF 8A 06 FF 7F F4 F5 8A 06 FF AA 65 24 65 25 8B 06 80 4C 0E 07
+             F8 2E 00 65 26 65 27 8B 06 4C 2E 08 14 84 02 65 28 89 06 FF AE 2E
+             08 14 84 02 2E 08 14 84 02 2E 00 65 2A 65 2B 8B 06 FF A8 63 2F 0B
+             FB 1D FF 98 03 2D 14 84 03 1B 80 5A 03 33 14 9E 1B 08 03 3B 1B 02
+             03 3E 14 A0 14 33 01 1E 65 30 65 31 8B 06 80 54 0E 07 F8 2E 08 14
+             84 02 65 32 89 06 59 2E 00 65 34 65 35 8B 06 5A 63 2F 36 FB 1C 04
+             65 37 84 03 65 38 84 03 14 84 02 2E 00 65 39 65 3A 8B 06 FF BB 63
+             2F 0B FB 1C 04 65 3C 84 03 65 3D 84 02 A0 14 72 63 AF 82 02 23 02
+             14 32 64 9D 14 84 02 93 02 0E 1B 05 2E 0A 93 02 07 14 84 01 65 3F
+             84 01 9E 19 05)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "operator" "+" "-" "/" "*"
+        |COMMON-LISP-USER|::|COMPARE| |COMMON-LISP-USER|::|*LEXEME*|
+        |COMMON-LISP-USER|::|TAKEEXPITERM| "identifier"
+        |COMMON-LISP-USER|::|UNDOTOKEN| |COMMON-LISP-USER|::|TAKELISTEXP| "()"
+        "EXPLIST" "EXPI" "keyword" "set" "defvar" "identifier"
+        "\"~a\" should take id first " "keyword" "if"
+        |COMMON-LISP-USER|::|TAKEEXPBTERM| |COMMON-LISP-USER|::|CREATETREE|
+        "operator" ")" "keyword" "while" "operator" "(" "operator" ")" "()"
+        "EXPLIST" "Missing operator \"(\" after ~a "
+        "Missing operator \"(\" after while" "keyword" "for" "operator" "("
+        "identifier" "\"~a\" should take id first " "operator" ")" "()"
+        "EXPLIST" "Missing operator \")\" after ~a "
+        "Missing operator \"(\" after for " "keyword" "deffun" "identifier"
+        "\"~a\" should take id first " "operator" "("
+        |COMMON-LISP-USER|::|TAKEIDLIST| "()" "IDLIST" "operator" ")"
+        "Missing operator \")\" after ~a " "()" "EXPLIST"
+        "Missing operator \"(\" after deffum ~a " "EXPI")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|198 225 (DEFUN TAKEEXPB NIL ...)-11|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKEEXPB| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKEEXPB|
+       #97Y(00 00 00 00 00 00 00 00 26 01 01 04 2E 00 DB DC DD DE DF 2D 05 06
+            1D 80 43 0E 07 F8 2E 08 FB 1C 29 AC E4 38 04 8D 41 30 E5 89 06 06
+            E6 0E 0D 5D 0F 0D 2E 0E 14 84 02 2E 0E 14 84 02 AE 32 64 AC 84 02
+            14 84 01 EA 84 01 1B 14 14 84 02 AC E3 38 04 8D 42 68 2E 08 1B 61
+            E9 33 00 1E 2E 11 9E 19 05)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "keyword" "and" "or" "not" "equal"
+        |COMMON-LISP-USER|::|COMPARE| |COMMON-LISP-USER|::|*LEXEME*|
+        |COMMON-LISP-USER|::|TAKEEXPBTERM| "not" "equal" "operator"
+        ("operator" "(") |COMMON-LISP-USER|::|*INPUT*|
+        |COMMON-LISP-USER|::|TAKEEXPITERM|
+        "EXPB should contain only EXPB argument, only exception is \"equal\""
+        "EXPB" |COMMON-LISP-USER|::|UNDOTOKEN|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|227 243 (DEFUN TAKEEXPLIST NIL ...)-12|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKEEXPLIST| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKEEXPLIST|
+       #65Y(00 00 00 00 00 00 00 00 26 01 01 03 2E 00 DB DC DD 2D 03 04 1C 09
+            2E 0A 9E 19 04 2E 07 1B 0C 0E 05 F8 14 E0 38 04 8C 41 72 2E 08 14
+            84 02 2E 07 14 84 02 14 32 64 AC 84 02 14 84 01 E3 84 01 1B 57)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "keyword" "concat" "append"
+        |COMMON-LISP-USER|::|COMPARE| |COMMON-LISP-USER|::|*LEXEME*| "concat"
+        |COMMON-LISP-USER|::|TAKEEXPLISTTERM|
+        |COMMON-LISP-USER|::|TAKEEXPITERM| "EXPLIST"
+        |COMMON-LISP-USER|::|UNDOTOKEN|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|246 265 (DEFUN TAKEEXPITERM NIL ...)-13|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKEEXPITERM| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKEEXPITERM|
+       #70Y(00 00 00 00 00 00 00 00 26 01 63 2E 00 DB 88 02 11 E0 89 02 27 6B
+            07 6B 04 61 02 F8 CD 14 9E 5D 19 02 DD 6B 04 61 02 F8 CA 1B 72 2E
+            0B F8 1D 13 2E 00 E6 E7 8A 02 0C E8 AD 33 01 1E E3 E4 8A 02 6A 2E
+            0F 15 19 01)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "identifier"
+        |COMMON-LISP-USER|::|COMPARE| "id" |COMMON-LISP-USER|::|*LEXEME*|
+        "EXPI" "integer" |COMMON-LISP-USER|::|*TOKEN*| "EXPI" "operator" "("
+        |COMMON-LISP-USER|::|TAKEEXPI| "operator" ")"
+        "Missing operator \")\" after ~a " |COMMON-LISP-USER|::|UNDOTOKEN|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|267 283 (DEFUN TAKEEXPBTERM NIL ...)-14|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKEEXPBTERM| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKEEXPBTERM|
+       #56Y(00 00 00 00 00 00 00 00 26 01 63 2E 00 DB 88 02 0A E0 E1 8A 02 11
+            2E 0C 15 19 01 6B 03 6B 04 61 02 F8 DF 9E 5D 19 02 2E 08 F8 1D 6C
+            2E 00 E3 E4 8A 02 65 E5 AD 33 01 1E)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "binaryValue"
+        |COMMON-LISP-USER|::|COMPARE| |COMMON-LISP-USER|::|*TOKEN*|
+        |COMMON-LISP-USER|::|*LEXEME*| "EXPB" "operator" "("
+        |COMMON-LISP-USER|::|TAKEEXPB| "operator" ")"
+        "Missing operator \")\" after ~a " |COMMON-LISP-USER|::|UNDOTOKEN|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|285 317 (DEFUN TAKEEXPLISTTERM NIL ...)-15|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKEEXPLISTTERM| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKEEXPLISTTERM|
+       #103Y(00 00 00 00 00 00 00 00 26 01 63 2E 00 DB DC 8A 03 26 E8 E9 8A 03
+             3F ED EE 8B 03 80 45 2E 15 F8 1D 80 41 2E 00 F0 F1 8A 03 3A 03 18
+             14 AD 33 01 1E CE 1B 78 E7 33 00 1E 2E 00 DE DF 8B 03 75 63 2F 06
+             F8 2E 00 E1 E2 8B 03 67 92 00 03 E4 84 00 E5 84 00 D1 1B 07 EA 84
+             00 EB 84 00 D7 14 9E 5D 19 02 2E 19 15 19 01)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "operator" "'"
+        |COMMON-LISP-USER|::|COMPARE| "operator" "("
+        |COMMON-LISP-USER|::|TAKELISTVALUES| "operator" ")"
+        "Missing operator \")\" after ~a " "'()" "LISTVALUE" "EXPLIST"
+        "Missing operator \"(\" after operator ' " "keyword" "null" "null"
+        "LISTVALUE" "EXPLIST" "operator" "(" |COMMON-LISP-USER|::|TAKEEXPLIST|
+        "operator" ")" "Missing operator \")\" after ~a "
+        |COMMON-LISP-USER|::|UNDOTOKEN|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|320 336 (DEFUN TAKELISTVALUES (SUBLIST) ...)-16|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKELISTVALUES| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKELISTVALUES|
+       #51Y(00 00 00 00 01 00 00 00 26 02 2E 00 DB DC 8A 03 08 DF 88 03 0D E3
+            33 00 1E 2E 04 83 01 14 32 64 19 02 6B 06 84 01 6B 07 84 01 E2 84
+            01 14 28 5A 3F 19 02)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "operator" ")"
+        |COMMON-LISP-USER|::|COMPARE| |COMMON-LISP-USER|::|UNDOTOKEN| "integer"
+        |COMMON-LISP-USER|::|*TOKEN*| |COMMON-LISP-USER|::|*LEXEME*| "values"
+        "Wrong argument, expected only integer in ListValues ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP-USER|::|SUBLIST|) |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|338 354 (DEFUN TAKEIDLIST (SUBLIST) ...)-17|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKEIDLIST| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKEIDLIST|
+       #50Y(00 00 00 00 01 00 00 00 26 02 2E 00 DB DC 8A 03 08 DF 88 03 0D E3
+            33 00 1E 2E 04 83 01 14 32 64 19 02 E0 84 01 6B 07 84 01 E2 84 01
+            14 28 5B 3F 19 02)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "operator" ")"
+        |COMMON-LISP-USER|::|COMPARE| |COMMON-LISP-USER|::|UNDOTOKEN|
+        "identifier" "id" |COMMON-LISP-USER|::|*LEXEME*| "IDLIST"
+        "Wrong argument, expected only identifier in IDLIST")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP-USER|::|SUBLIST|) |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|356 366 (DEFUN TAKELISTEXP (SUBLIST) ...)-18|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TAKELISTEXP| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TAKELISTEXP|
+       #37Y(00 00 00 00 01 00 00 00 26 02 2E 00 DB DC 8A 03 0D 2E 04 2E 05 14
+            84 01 14 28 6F 3F 19 02 2E 04 AD 32 64 19 02)
+       (|COMMON-LISP-USER|::|NEXTTOKEN| "operator" ")"
+        |COMMON-LISP-USER|::|COMPARE| |COMMON-LISP-USER|::|UNDOTOKEN|
+        |COMMON-LISP-USER|::|CREATETREE|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP-USER|::|SUBLIST|) |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|369 374 (DEFUN NEXTTOKEN NIL ...)-19|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|NEXTTOKEN| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|NEXTTOKEN|
+       #38Y(00 00 00 00 00 00 00 00 26 01 63 0E 00 78 0E 00 5C 0F 00 6A 00 0F
+            01 78 83 01 15 0F 02 94 00 83 01 15 0F 03 19 02)
+       (|COMMON-LISP-USER|::|*INPUT*| |COMMON-LISP-USER|::|*CURRENT*|
+        |COMMON-LISP-USER|::|*TOKEN*| |COMMON-LISP-USER|::|*LEXEME*|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|376 377 (DEFUN UNDOTOKEN NIL ...)-20|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|UNDOTOKEN| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|UNDOTOKEN|
+       #19Y(00 00 00 00 00 00 00 00 26 01 6B 00 0E 01 5D 0F 01 19 01)
+       (|COMMON-LISP-USER|::|*CURRENT*| |COMMON-LISP-USER|::|*INPUT*|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|379 382 (DEFUN COMPARE (TOKEN &REST LEXEME) ...)-21|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|COMPARE| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|COMPARE|
+       #43Y(00 00 00 00 01 00 00 00 27 17 92 01 09 6B 00 AF 38 04 31 41 19 03
+            6B 00 AF 38 04 31 41 1F 0A 6B 01 AE DC 38 02 31 C1 19 03 19 03)
+       (|COMMON-LISP-USER|::|*TOKEN*| |COMMON-LISP-USER|::|*LEXEME*|
+        #.#'|COMMON-LISP|::|STRING-EQUAL|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP-USER|::|TOKEN| |COMMON-LISP|::|&REST|
+        |COMMON-LISP-USER|::|LEXEME|)
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|384 387 (DEFUN PRINTTREE NIL ...)-22|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|PRINTTREE| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|PRINTTREE|
+       #62Y(03 00 01 00 00 00 00 00 26 01 DA DB 38 05 72 0B 53 1D C7 45 AF DD
+            30 04 AF 2F 05 41 05 00 00 02 1D 03 14 2F 06 46 54 05 00 00 00 1D
+            0E 1B 06 05 00 00 00 1D 06 14 E1 64 2D 03 06 55 19 02)
+       ("161044080.tree" :|OUTPUT| #.#'|COMMON-LISP|::|VALUES|
+        #Y(|COMMON-LISP-USER|::|PRINTTREE-1|
+           #23Y(00 00 00 00 01 00 00 00 21 17 00 10 00 DB B2 38 02 31 95 A1 11
+                19 03)
+           (|SYSTEM|::|*FORMAT-CS*| "; DIRECTIVE: parse tree \n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|FORMAT| |COMMON-LISP-USER|::|PRINTOUTPUT|
+        |COMMON-LISP|::|CLOSE| :|ABORT|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|389 403 (DEFUN PRINTOUTPUT (STREAM &OPTIONAL #) ...)-23|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|PRINTOUTPUT| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|PRINTOUTPUT|
+       #97Y(00 00 00 00 01 00 01 00 26 08 3B 01 2A C5 F9 0E 01 1F 80 4B 1B 25
+            AF DC 96 04 DD 2D 04 04 AF DF 30 04 AF AD 96 04 2D 03 06 AF E1 96
+            04 E2 2D 04 04 AF E3 30 04 1B 20 0E 01 1F 24 63 0E 01 78 0E 01 5C
+            0F 01 6A 00 14 8E 1D 4C AF E4 B0 E5 2D 04 04 AF E6 AE 2D 03 04 AF
+            96 03 29 02 06 FF AB 19 03)
+       (0. |COMMON-LISP-USER|::|*TREE*|
+        #Y(|COMMON-LISP-USER|::|PRINTOUTPUT-1|
+           #61Y(00 00 00 00 01 00 00 00 21 17 00 10 00 B0 94 05 83 06 DB 93 01
+                19 AC AE 91 01 34 13 1B 17 94 07 83 08 B5 31 90 DC AF B5 2D 03
+                03 FF 92 01 67 85 00 B3 8D 9F 69 16 02 A2 16 01 11 19 03)
+           (|SYSTEM|::|*FORMAT-CS*| 0. 1. |SYSTEM|::|LIST-BACKWARD|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        " " |COMMON-LISP|::|FORMAT|
+        #Y(|COMMON-LISP-USER|::|PRINTOUTPUT-2|
+           #23Y(00 00 00 00 01 00 00 00 21 17 00 10 00 DB B2 38 02 31 95 A1 11
+                19 03)
+           (|SYSTEM|::|*FORMAT-CS*| "(\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP-USER|::|PRINTLIST|
+        #Y(|COMMON-LISP-USER|::|PRINTOUTPUT-3|
+           #61Y(00 00 00 00 01 00 00 00 21 17 00 10 00 B0 94 05 83 06 DB 93 01
+                19 AC AE 91 01 34 13 1B 17 94 07 83 08 B5 31 90 DC AF B5 2D 03
+                03 FF 92 01 67 85 00 B3 8D 9F 69 16 02 A2 16 01 11 19 03)
+           (|SYSTEM|::|*FORMAT-CS*| 0. 1. |SYSTEM|::|LIST-BACKWARD|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        " "
+        #Y(|COMMON-LISP-USER|::|PRINTOUTPUT-4|
+           #23Y(00 00 00 00 01 00 00 00 21 17 00 10 00 DB B2 38 02 31 95 A1 11
+                19 03)
+           (|SYSTEM|::|*FORMAT-CS*| ")\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|PRINTOUTPUT-5|
+           #61Y(00 00 00 00 01 00 00 00 21 17 00 10 00 B0 94 05 83 06 DB 93 01
+                19 AC AE 91 01 34 13 1B 17 94 07 83 08 B5 31 90 DC AF B5 2D 03
+                03 FF 92 01 67 85 00 B3 8D 9F 69 16 02 A2 16 01 11 19 03)
+           (|SYSTEM|::|*FORMAT-CS*| 0. 1. |SYSTEM|::|LIST-BACKWARD|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        " "
+        #Y(|COMMON-LISP-USER|::|PRINTOUTPUT-6|
+           #24Y(00 00 00 00 02 00 00 00 21 18 00 10 00 B1 B3 31 90 B2 31 97 A1
+                11 19 04)
+           (|SYSTEM|::|*FORMAT-CS*|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)))
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP|::|STREAM| |COMMON-LISP|::|&OPTIONAL|
+        (|COMMON-LISP-USER|::|N| 0.))
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|405 420 (DEFUN PRINTLIST (STREAM LST N) ...)-24|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|PRINTLIST| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|PRINTLIST|
+       #90Y(00 00 00 00 03 00 00 00 26 04 9F 1F 80 4A 1B 28 B0 DA 96 04 DB 2D
+            04 02 B0 DD 30 02 B0 AD 96 04 28 13 B0 DE 96 04 DF 2D 04 02 B0 E0
+            30 02 B0 B0 B0 29 03 08 00 9F 1F 20 63 94 03 83 04 6A 00 14 8E 1D
+            4D B0 E1 B0 E2 2D 04 02 B0 E3 AE 2D 03 02 B0 B0 96 04 29 03 08 5D
+            19 04)
+       (#Y(|COMMON-LISP-USER|::|PRINTLIST-1|
+           #61Y(00 00 00 00 01 00 00 00 21 17 00 10 00 B0 94 05 83 06 DB 93 01
+                19 AC AE 91 01 34 13 1B 17 94 07 83 08 B5 31 90 DC AF B5 2D 03
+                03 FF 92 01 67 85 00 B3 8D 9F 69 16 02 A2 16 01 11 19 03)
+           (|SYSTEM|::|*FORMAT-CS*| 0. 1. |SYSTEM|::|LIST-BACKWARD|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        " " |COMMON-LISP|::|FORMAT|
+        #Y(|COMMON-LISP-USER|::|PRINTLIST-2|
+           #23Y(00 00 00 00 01 00 00 00 21 17 00 10 00 DB B2 38 02 31 95 A1 11
+                19 03)
+           (|SYSTEM|::|*FORMAT-CS*| "(\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|PRINTLIST-3|
+           #61Y(00 00 00 00 01 00 00 00 21 17 00 10 00 B0 94 05 83 06 DB 93 01
+                19 AC AE 91 01 34 13 1B 17 94 07 83 08 B5 31 90 DC AF B5 2D 03
+                03 FF 92 01 67 85 00 B3 8D 9F 69 16 02 A2 16 01 11 19 03)
+           (|SYSTEM|::|*FORMAT-CS*| 0. 1. |SYSTEM|::|LIST-BACKWARD|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        " "
+        #Y(|COMMON-LISP-USER|::|PRINTLIST-4|
+           #23Y(00 00 00 00 01 00 00 00 21 17 00 10 00 DB B2 38 02 31 95 A1 11
+                19 03)
+           (|SYSTEM|::|*FORMAT-CS*| ")\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|PRINTLIST-5|
+           #61Y(00 00 00 00 01 00 00 00 21 17 00 10 00 B0 94 05 83 06 DB 93 01
+                19 AC AE 91 01 34 13 1B 17 94 07 83 08 B5 31 90 DC AF B5 2D 03
+                03 FF 92 01 67 85 00 B3 8D 9F 69 16 02 A2 16 01 11 19 03)
+           (|SYSTEM|::|*FORMAT-CS*| 0. 1. |SYSTEM|::|LIST-BACKWARD|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        " "
+        #Y(|COMMON-LISP-USER|::|PRINTLIST-6|
+           #24Y(00 00 00 00 02 00 00 00 21 18 00 10 00 B1 B3 31 90 B2 31 97 A1
+                11 19 04)
+           (|SYSTEM|::|*FORMAT-CS*|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)))
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP|::|STREAM| |COMMON-LISP-USER|::|LST|
+        |COMMON-LISP-USER|::|N|)
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|424 425 (DEFUN TEST NIL ...)-25|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TEST| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TEST|
+       #15Y(00 00 00 00 00 00 00 00 26 01 DA 2F 01 19 01)
+       ((("operator" "(") ("keyword" "deffun") ("identifier" "myfunct")
+         ("operator" "(") ("identifier" "W") ("identifier" "X")
+         ("identifier" "Y") ("identifier" "Z") ("operator" ")")
+         ("operator" "(") ("keyword" "while") ("operator" "(") ("operator" "(")
+         ("keyword" "not") ("operator" "(") ("keyword" "equal")
+         ("operator" "(") ("keyword" "and") ("binaryValue" "true")
+         ("operator" "(") ("keyword" "or") ("binaryValue" "true")
+         ("binaryValue" "false") ("operator" ")") ("operator" ")")
+         ("binaryValue" "true") ("operator" ")") ("operator" ")")
+         ("operator" ")") ("operator" "(") ("keyword" "for") ("operator" "(")
+         ("identifier" "i") ("operator" "(") ("operator" "*")
+         ("identifier" "X") ("identifier" "Y") ("operator" ")")
+         ("operator" "(") ("operator" "+") ("identifier" "W")
+         ("identifier" "Z") ("operator" ")") ("operator" ")") ("operator" "(")
+         ("operator" "/") ("operator" "(") ("operator" "-") ("identifier" "Z")
+         ("integer" "5") ("operator" ")") ("operator" "(") ("operator" "*")
+         ("integer" "3") ("integer" "2") ("operator" ")") ("operator" ")")
+         ("operator" "(") ("keyword" "append") ("identifier" "mlist")
+         ("operator" "'") ("operator" "(") ("integer" "1") ("integer" "2")
+         ("operator" ")") ("operator" ")") ("operator" "(")
+         ("keyword" "concat") ("operator" "'") ("operator" "(") ("integer" "3")
+         ("integer" "4") ("operator" ")") ("operator" "'") ("operator" "(")
+         ("integer" "5") ("integer" "6") ("operator" ")") ("operator" ")")
+         ("operator" ")") ("operator" ")") ("operator" ")"))
+        |COMMON-LISP-USER|::|PARSER|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))

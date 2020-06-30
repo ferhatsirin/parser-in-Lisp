@@ -1,0 +1,26 @@
+(("operator" "(") ("keyword" "deffun") ("identifier" "sumup") ("operator" "(") ("identifier" "x") ("operator" ")") ("operator" "(") ("keyword" "if") ("operator" "(") ("keyword" "equal") ("identifier" "x") ("integer" "0") ("operator" ")") ("integer" "1") ("operator" "(") ("operator" "+") ("identifier" "x") ("operator" "(") ("identifier" "sumup") ("operator" "(") ("operator" "-") ("identifier" "x") ("integer" "1") ("operator" ")") ("operator" ")") ("operator" ")") ("operator" ")") ("operator" ")")
+
+
+
+
+
+Ekteki fotoğrafta yer alan bir ağacın*** ekran görüntüsü aşağıdaki gibidir. Sizin ağaç çıktınız da tam olarak böyle olmalıdır.
+
+S
+|_S
+    |_a
+    |_S
+        |_a
+        |_S
+            |_e
+        |_b
+    |_b
+|_S
+    |_a
+    |_S
+        |_e
+    |_b
+
+*** https://www.tutorialspoint.com/automata_theory/context_free_grammar_introduction.htm
+
+
